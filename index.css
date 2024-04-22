@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f4f4f4;
+}
+img{
+    width: 100px;
+    height: 200px;
+    border-radius: 40px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    color: #b1b1b1;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section#inicio {
+    background: #ddd;
+}
+
+section#sobre {
+    background: #fff;
+}
+section#experiencias {
+    background: #ddd;
+}
+section#tecnologias {
+    background: #fff;
+}
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+}
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-inline-start: 520px;
+    padding: 5px 15px;
+    
+}
